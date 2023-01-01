@@ -1,0 +1,186 @@
+<!-- 
+    code with harry 
+    video no 27
+    Project 1: Creating Gym Website 
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pranay Fitness Club</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+   body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url('barbell-1839086_1920.jpg');
+   }
+
+   .left {
+      position: absolute;
+      left: 60px;
+      top: 16px;
+      /* border: 2px solid red; */
+      display: inline-block;
+      text-align: center;
+      font-size: 18px;
+   }
+
+   .left img {
+
+      width: 70px;
+      filter: invert(100%);
+   }
+
+   .mid {
+      display: block;
+      width: 45%;
+      margin: 16px auto;
+      /* border: 2px solid peachpuff; */
+   }
+
+   .right {
+      position: absolute;
+      right: 50px;
+      top: 25px;
+      /* border: 2px solid plum; */
+      display: inline-block;
+   }
+
+   .navbar {
+      display: inline-block;
+   }
+
+   .navbar li {
+      color: whitesmoke;
+      display: inline-block;
+   }
+
+   .navbar li a {
+      color: whitesmoke;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: 'Times New Roman', Times, serif;
+      padding: 34px 23px;
+   }
+
+   .navbar li a:hover {
+      text-decoration: underline;
+      color: rgb(183, 115, 183);
+   }
+
+   .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid gray;
+      border-radius: 10px;
+      font-size: 15px;
+      cursor: pointer;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+   .btn:hover {
+      color: rgb(173, 110, 110);
+   }
+
+   .container {
+      border: 2px solid white;
+      margin: 106px 80px;
+      padding: 75px;
+      width: 33%;
+      border-radius: 28px;
+   }
+
+   .form-group input {
+      border: 2px solid rgb(152, 37, 152);
+      text-align: center;
+      display: block;
+      width: 508px;
+      padding: 1px;
+      margin: 11px auto;
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   .container h2 {
+      font-size: 32px;
+      text-align: center;
+   }
+
+   .container button {
+      display: block;
+      width: 50%;
+      margin: 30px auto;
+   }
+</style>
+
+<body>
+   <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+         <img src="logo.webp" alt="">
+         <div>
+            Fitness Centre
+         </div>
+      </div>
+
+      <!-- mid box bor navigation bar -->
+      <div class="mid">
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Diet Plan</a></li>
+            <li><a href="#">Weekly Sets</a></li>
+            <li><a href="#">Contact Us</a></li>
+         </ul>
+      </div>
+
+      <!-- right box for buttons -->
+      <div class="right">
+         <button class="btn">
+            Call Us Now
+         </button>
+
+         <button class="btn">
+            Email Us
+         </button>
+      </div>
+   </header>
+   <div class="container">
+      <h2>Join The Best Gym Of Nagpur Now</h2>
+      <form action="noaction.php">
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+         </div>
+         <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Address">
+         </div>
+         <button class="btn">Submit</button>
+      </form>
+   </div>
+</body>
+
+</html>
